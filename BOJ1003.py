@@ -1,6 +1,6 @@
 # https://www.acmicpc.net/problem/1003
 
-import sys
+'''import sys
 
 read = sys.stdin.readline
 write = sys.stdout.write
@@ -16,4 +16,17 @@ for i in range(2, 41) :
 
 for t in range(T) :
     N = int(read())
-    write(str(dp[N][0]) + ' ' + str(dp[N][1]) +"\n")
+    write(str(dp[N][0]) + ' ' + str(dp[N][1]) +"\n")'''
+
+class Test :
+    def fun1(self) :
+        self.fun2()
+        pass
+
+    def fun2(a):
+        print(a)
+
+
+test = Test()
+
+test.fun1()
